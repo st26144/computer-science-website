@@ -1,0 +1,272 @@
+/* all pages */
+body {
+    margin: 0;
+    font-family: Georgia;
+}
+
+
+/*header and navigation bar*/
+header {
+    text-align: center;
+    background: #462f2b;
+color: white;
+  padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+
+
+/*page 1*/
+
+
+.HeroImage {
+    background-image: url("cafe.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+.HeroImage h1 {
+    font-size: 100px;
+    color: #ffe6ca;
+}
+
+
+.HeroImageButton {
+    padding: 12px 20px;
+    background: #c47f45;
+    color: white;
+
+    margin: 5px;
+}
+
+/* Images */
+
+.images {
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    gap: 20px;
+    background: #ffe6ca;
+}
+
+.images div {
+    width: 33%;
+}
+
+.images img {
+    width: 100%;
+    height: 190px;
+    object-fit:cover;
+}
+
+
+
+/* footer */
+footer {
+    background: #462f2b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+/* Contact page */
+
+
+.ContactPage {
+    text-align: center;
+    background: #ffe6ca;
+    padding: 40px;
+}
+.ContactPage form {
+    width: 400px;
+    margin: auto;
+}
+
+.ContactPage input,  /*  text boxes */
+.ContactPage textarea {
+    width: 100%;
+    margin: 5px 0 15px;
+    padding: 10px;
+}
+
+.ContactPage textarea {
+    height: 100px;
+}
+
+.ContactPage button {
+    background: #c47f45;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+
+/* For about us page */
+
+
+.AboutpageHeroImage {
+    background: #ffe6ca;
+    text-align: center;
+    padding: 40px;
+}
+.AboutpageHeroImage h1 {
+    font-size: 60px;
+}
+
+.AboutInfo {
+    background: #ffe6ca;
+    display: flex;
+    text-align: center;
+     gap: 20px;
+    padding: 40px;
+
+}
+
+.AboutInfo p {
+font-size: 25px;
+}
+    
+
+.AboutInfo div {
+    width: 50%;
+}
+
+.AboutInfo img {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+
+.AboutHeading {
+    text-align: center;
+    background: #ffe6ca;
+    padding: 20px;
+}
+
+.AboutpageBoxes {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.AboutpageBoxes div {
+    background: #ffe6ca;
+    width: 33%;
+    padding: 15px;
+}
+
+
+.AboutpageBoxes h2 {  /*text in box*/
+    color: #462f2b;
+}
+.AboutpageBoxes p {
+    color: #462f2b;
+}
+
+
+
+/*Menu*/
+
+.MenuTitle {
+    background: #ffe6ca;
+    text-align: center;
+    padding: 20px;
+}
+
+.Menu {
+    background: #ffe6ca;
+    text-align: center;
+    padding: 20px;
+}
+
+.MenuBoxes {
+    display: flex;
+    gap: 20px;
+}
+
+.MenuBoxes div {
+    background: #d3d3d3;
+    width: 33%; 
+padding: 10px;
+    box-sizing: border-box;
+}
+
+.MenuBoxes img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+.images {
+    flex-direction: column;
+}
+
+.images div {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+.HeroImage h1 {
+font-size: 40px;
+}
+
+header h2 {
+    font-size: 25px;
+}
+
+.ContactPage form {
+width: 100%;
+}
+
+nav a {
+    margin: 5px;
+}
+
+.HeroImage {
+    padding: 40px 10px;
+    height: auto;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.MenuBoxes {
+        flex-direction: column;
+        align-items: center;
+}
+
+.MenuBoxes div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+}
+
+
